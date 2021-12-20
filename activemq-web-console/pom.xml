@@ -183,7 +183,7 @@
       <artifactId>tomcat-websocket-api</artifactId>
       <scope>provided</scope>
     </dependency>
-      
+
     <!-- j2ee jars -->
     <dependency>
       <groupId>jakarta.jms</groupId>
@@ -267,19 +267,19 @@
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
     </dependency>
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-    </dependency>
+      <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-core</artifactId>
+      </dependency>
 
     <!-- JSTL support -->
-    
+
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>apache-jstl</artifactId>
       <scope>provided</scope>
     </dependency>
-    
+
      <!-- Tag Libs -->
     <dependency>
       <groupId>org.apache.taglibs</groupId>
@@ -291,7 +291,7 @@
       <artifactId>taglibs-standard-impl</artifactId>
       <scope>provided</scope>
     </dependency>
-    
+
     <!-- used for testing -->
     <dependency>
       <groupId>junit</groupId>
@@ -311,7 +311,7 @@
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
-    
+
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>apache-jsp</artifactId>
@@ -323,7 +323,7 @@
           </exclusion>
       </exclusions>
     </dependency>
-    
+
      <dependency>
        <groupId>org.apache.geronimo.specs</groupId>
        <artifactId>geronimo-annotation_1.0_spec</artifactId>

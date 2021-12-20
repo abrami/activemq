@@ -74,7 +74,7 @@
       <artifactId>activeio-core</artifactId>
       <optional>true</optional>
     </dependency>
-    
+
     <!-- add the optional replication deps -->
     <dependency>
       <groupId>org.fusesource.hawtdispatch</groupId>
@@ -118,7 +118,7 @@
       <scope>provided</scope>
     </dependency>
 
-    
+
     <dependency>
       <groupId>org.apache.activemq</groupId>
       <artifactId>activemq-mqtt</artifactId>
@@ -177,11 +177,11 @@
       <artifactId>spring-jms</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <scope>test</scope>
-    </dependency>
+      <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-core</artifactId>
+
+      </dependency>
     <dependency>
       <groupId>org.jencks</groupId>
       <artifactId>jencks</artifactId>

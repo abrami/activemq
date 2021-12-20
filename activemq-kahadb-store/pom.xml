@@ -135,11 +135,10 @@
       <artifactId>slf4j-log4j12</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <scope>test</scope>
-    </dependency>
+      <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-core</artifactId>
+      </dependency>
     <dependency>
       <groupId>org.jmock</groupId>
       <artifactId>jmock-junit4</artifactId>
@@ -233,7 +232,7 @@
                   </configuration>
               </execution>
           </executions>
-      </plugin>      
+      </plugin>
     </plugins>
   </build>
   <profiles>
@@ -282,7 +281,7 @@
         </plugins>
       </build>
     </profile>
-    
+
     <profile>
       <id>activemq.tests.aix.excludes</id>
       <activation>

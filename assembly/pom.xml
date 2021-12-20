@@ -249,10 +249,10 @@
       <groupId>xpp3</groupId>
       <artifactId>xpp3</artifactId>
     </dependency>
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-    </dependency>
+      <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-core</artifactId>
+      </dependency>
     <dependency>
       <groupId>jakarta.jms</groupId>
       <artifactId>jakarta.jms-api</artifactId>

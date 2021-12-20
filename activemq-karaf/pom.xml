@@ -54,8 +54,8 @@
       <version>1.11.4</version>
       <exclusions>
         <exclusion>
-          <groupId>log4j</groupId>
-          <artifactId>apache-log4j-extras</artifactId>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>apache-log4j-extras</artifactId>
         </exclusion>
       </exclusions>
     </dependency>

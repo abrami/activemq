@@ -98,7 +98,7 @@
       <groupId>${project.groupId}</groupId>
       <artifactId>activemq-spring</artifactId>
     </dependency>
-    
+
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-blueprint</artifactId>
@@ -514,13 +514,11 @@
           <classifier>sources</classifier>
           <optional>true</optional>
         </dependency>
-        <dependency>
-          <groupId>log4j</groupId>
-          <artifactId>log4j</artifactId>
-          <version>${log4j-version}</version>
-          <classifier>sources</classifier>
-          <optional>true</optional>
-        </dependency>
+          <dependency>
+              <groupId>org.apache.logging.log4j</groupId>
+              <artifactId>log4j-core</artifactId>
+              <version>${log4j-version}</version>
+          </dependency>
       </dependencies>
 
       <build>
