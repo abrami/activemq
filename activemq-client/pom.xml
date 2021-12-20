@@ -58,7 +58,7 @@
       <artifactId>geronimo-j2ee-management_1.1_spec</artifactId>
     </dependency>
 
-    <!-- for ftp blob upload/download --> 
+    <!-- for ftp blob upload/download -->
     <dependency>
       <groupId>commons-net</groupId>
       <artifactId>commons-net</artifactId>
@@ -102,7 +102,7 @@
         <version>${maven-javadoc-plugin-version}</version>
         <configuration>
           <!-- necessary for now under the javadocs can be fixed because jdk8 is much stricter -->
-          <additionalparam>${javadoc.options}</additionalparam>
+<!--          <additionalparam>${javadoc.options}</additionalparam>-->
           <links>
             <link>${javase-javadoc-url}</link>
             <link>${javaee-javadoc-url}</link>
